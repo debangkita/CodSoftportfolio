@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Debangkita Dutta</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Debangkita Dutta</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div>
+            <div class="menu-links">
+                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#About"onclick="toggleMenu()">About</a></li>
+                <li><a href="#Skills"onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#Project"onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact"onclick="toggleMenu()">Contact</a></li>
+            </div>    
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/profile2.png" height="450" width="450" alt="Debangkita Dutta profile picture"/>
+            
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm </p>
+            <h1 class="title">Debangkita Dutta</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/resume1.pdf')"
+                
+                >
+                Download Resume
+                
+            </button>
+            <button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact me
+
+            </button>
+            </div>
+            <div>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/debangkita-dutta-875095257"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/debangkita"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100013023047379&mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://instagram.com/uditaaa.xx?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.snapchat.com/add/debangkita_10?share_id=51qQB0gEWDY&locale=en-IN"><i class='bx bxl-snapchat' ></i> ></i></a>
+
+
+        
+                </class>
+                
+                    
+                </div>
+            </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1"> <br/> Get to Know More about me</p>
+        <h1 class="title">About Me </h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                class="about-pic"
+                src="./images/pfp.png" height="350" width="350"
+                alt="Profile Picture" />
+                
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        class="icon"
+                        src="./images/experience.png" 
+                        alt="experience-icon"/>
+                    <h3>Experience</h3>
+                    <p>1+ years <br/>Frontend-Developer</p>   
+
+
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        class="icon"
+                        src="./images/education.png" 
+                        alt="education icon"/>
+                    <h3>Education</h3>
+                    <p>B.Tech in Computer Science and Engineering  <br  />ISC Holy Child School 2021</p>
+                    </div>
+                    </div>
+                    <div class="text-container">
+                        <p> A passionate designer and coding enthusiast! My world revolves around lines of code and pixels, where I turn creativity into digital magic. I believe that every line of code is an opportunity to bring ideas to life. Join me on a journey through the captivating stories of cinema, the soul-stirring melodies of music, the enchanting worlds of books, and the thrilling challenges of puzzles. Let's celebrate the beauty of art, rhythm, words, and intellect together! 🌟 </p>
+                    
+                    
+                    <a href="#"><i class='bx bxs-book-reader'></i></a>
+                    <a href="#"><i class='bx bxs-camera-movie'></i></a>
+                    <a href="#"><i class='bx bx-code-alt'></i></a>
+                    <a href="#"><i class='bx bxs-palette'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="header">
+                    <h1>My Skills</h1>
+
+                </div>
+                <div class="container">
+                    <div class="skills-box">
+                        <div class="skills-title">
+                            <div class="img">
+                                <img src="./images/html_logo.png"     class="skill-icon">
+                            </div>
+                            <h3>HTML 5</h3>
+                        </div>
+                        <p>Experienced</p>
+                    </div>
+
+                    <div class="container">
+                        <div class="skills-box">
+                            <div class="skills-title">
+                                <div class="img">
+                                    <img src="./images/css_icon.png"   class="skill-icon">
+                                </div>
+                                <h3>CSS 3</h3>
+                            </div>
+                            <p>Experienced</p>
+                        </div>
+
+                        <div class="container">
+                            <div class="skills-box">
+                                <div class="skills-title">
+                                    <div class="img">
+                                        <img src="./images/javascript.png"   class="skill-icon">
+                                    </div>
+                                    <h3>Javascript</h3>
+                                </div>
+                                <p>Intermediate</p>
+                            </div>
+
+
+                            <div class="container">
+                                <div class="skills-box">
+                                    <div class="skills-title">
+                                        <div class="img">
+                                            <img src="./images/python.png"   class="skill-icon">
+                                        </div>
+                                        <h3>Python</h3>
+                                    </div>
+                                    <p>Basics</p>
+                                </div>
+
+
+
+                                <div class="container">
+                                    <div class="skills-box">
+                                        <div class="skills-title">
+                                            <div class="img">
+                                                <img src="./images/java.png"  class="skill-icon">
+                                            </div>
+                                            <h3>Java</h3>
+                                        </div>
+                                        <p>Intermediate</p>
+                                    </div>
+
+
+
+                                    <div class="container">
+                                        <div class="skills-box">
+                                            <div class="skills-title">
+                                                <div class="img"> 
+                                                    <img src="./images/mysql.png"  class="skill-icon">
+                                                </div>
+                                                <h3>My SQL</h3>
+                                            </div>
+                                            <p>Experienced</p>
+                                        </div>
+
+
+                    
+                </div>
+            </div>                
+        </article>
+              </div>
+            </div>
+          </div>
+
+          <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="skills-details-container">
+              <div class="about-containers">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="./images/calcu.png"
+                      alt="project-1"
+                    />
+                  </div>
+                  <h2 class="skills-sub-title project-title">Calculator</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/';"
+                    >
+                      GitHub
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://linkedin.com/';"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="./images/cubecss.png"
+                      alt="project-2"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Fun Cube color</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/';"
+                    >
+                      GitHub
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://linkedin.com/';"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      class="project-img"
+                      src="./images/moviereviewpj.png"
+                      alt="project-1"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Movie Review website</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/';"
+                    >
+                      GitHub
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://linkedin.com/';"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section id="contact">
+              <p class="section__text__p1">Get In Touch</p>
+              <h1 class="title">Contact Me</h1>
+              <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                  <img
+                    src="./images/emailimg.png"
+                    class="icon contact-icon"
+                    alt="Email icon"
+                  />
+                  <p><a href="mailto:examplemail@gmail.com">Email me here</a></p>
+                </div>
+                <div class="contact-info-container">
+                  <img
+                    src="./images/emailimg.png"
+                    class="icon contact-icon"
+                    alt="Email icon"
+                  />
+                  <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+                </div>
+              </div>
+            </section>
+            <footer>
+              <nav>
+                <div class="nav-links-container">
+                  <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <p>Copyright &#169; 2023 Debangkita Dutta. All Rights Reserved</p>
+            </footer>
+
+    <script src="script.js"> </script>
+</body>
+</html>
